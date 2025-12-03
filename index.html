@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>WeTechWork — Automatização inteligente com IA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="WeTechWork automatiza tarefas e processos usando Inteligência Artificial, aumentando a eficiência operacional da sua empresa.">
+
+  <!-- Fonte free similar à Paramount: Space Grotesk -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Material+Symbols+Outlined:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS da página -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- JS de interações (header/footer) -->
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="main-header">
+    <div class="container main-header-inner">
+      <a href="#topo" class="brand">
+        <span class="brand-mark">
+          <span class="brand-mark-inner"></span>
+        </span>
+        <span>
+          <div class="brand-text-main">WeTechWork</div>
+          <div class="brand-text-sub">Automation &amp; AI Studio</div>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="#descricao">Como funciona</a>
+        <a href="#descricao">Casos de uso</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <a href="#contato" class="btn-primary">
+        <span class="material-symbols-outlined">bolt</span>
+        Diagnóstico com IA
+      </a>
+    </div>
+  </header>
+
+  <main id="topo">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-background" aria-hidden="true">
+        <div class="hero-orb orb-1"></div>
+        <div class="hero-orb orb-2"></div>
+        <div class="hero-orb orb-3"></div>
+      </div>
+
+      <divVou usar uma fonte **free** e bem próxima do “feeling” da Paramount: **Space Grotesk** (Google Fonts), com visual tech, geométrico e contemporâneo.  
+Também vou separar tudo em três arquivos:
+
+- `index.html`
+- `css/styles.css`
+- `js/main.js`
+
+Como estou em modo *chat*, não consigo criar os arquivos direto no seu projeto, mas você pode copiar/colar exatamente o conteúdo abaixo nesses caminhos.
+
+---
+
+## 1. `index.html`
+
+Crie este arquivo na raiz do projeto (`c:\Users\BertiGabriel\Code\WeTechWork\website\index.html`):
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>WeTechWork — Automatização inteligente com IA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="WeTechWork automatiza tarefas e processos usando Inteligência Artificial, aumentando a eficiência operacional da sua empresa.">
+
+  <!-- Fonte principal (Space Grotesk) + Material Symbols (ícones estilo Material Design) -->
+  <link rel="preconnect" href="[https://fonts.googleapis.com](https://fonts.googleapis.com)">
+  <link rel="preconnect" href="[https://fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin>
+  <link
+    href="[https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Material+Symbols+Outlined:wght@300;400;600&display=swap](https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Material+Symbols+Outlined:wght@300;400;600&display=swap)"
+    rel="stylesheet"
+  >
+
+  <!-- CSS principal -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="main-header">
+    <div class="container main-header-inner">
+      <a href="#topo" class="brand">
+        <span class="brand-mark">
+          <span class="brand-mark-inner"></span>
+        </span>
+        <span>
+          <div class="brand-text-main">WeTechWork</div>
+          <div class="brand-text-sub">Automation &amp; AI Studio</div>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="#descricao">Como funciona</a>
+        <a href="#descricao">Casos de uso</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <a href="#contato" class="btn-primary">
+        <span class="material-symbols-outlined">bolt</span>
+        Diagnóstico com IA
+      </a>
+    </div>
+  </header>
+
+  <main id="topo">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-background" aria-hidden="true">
+        <div class="hero-orb orb-1"></div>
+        <div class="hero-orb orb-2"></div>
+        <div class="hero-orb orb-3"></div>
+      </div>
+
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <div class="eyebrow">
+            <span class="eyebrow-pill"></span>
+            IA aplicada ao seu negócio, não ao hype
+          </div>
+
+          <h1 id="hero-title" class="hero-title">
+            Nós conectamos sua operação
+            <span>à inteligência artificial</span>.
+          </h1>
+
+          <div class="hero-dynamic">
+            Automatizando
+            <span class="hero-dynamic-words">
+              <span>tarefas repetitivas</span>
+              <span>processos críticos</span>
+              <span>fluxos de atendimento</span>
+            </span>
+            com IA segura e escalável.
+          </div>
+
+          <p class="hero-subtitle">
+            A WeTechWork desenha, implementa e monitora automações com IA que eliminam gargalos,
+            reduzem custos e liberam seu time para o que é realmente estratégico.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#contato" class="btn-primary">
+              <span class="material-symbols-outlined">auto_fix</span>
+              Quero automatizar um processo
+            </a>
+            <a href="#descricao" class="btn-secondary">
+              <span class="material-symbols-outlined">play_circle</span>
+              Ver como funciona
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <div class="hero-meta-pill">
+              <span class="material-symbols-outlined" style="color: #24E4FF;">shield</span>
+              Workflows auditáveis e alinhados à LGPD
+            </div>
+            <div class="hero-meta-pill">
+              <span class="material-symbols-outlined" style="color: #4E7CFF;">hub</span>
+              Integração com CRMs, ERPs e APIs da sua stack
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right" aria-hidden="true">
+          <div class="hero-panel">
+            <div class="hero-panel-header">
+              <div class="hero-panel-header-left">
+                <span class="hero-panel-tag">
+                  <span class="hero-panel-tag-dot"></span>
+                  Fluxo em tempo real
+                </span>
+                <span class="hero-panel-status">
+                  Bot IA → ERP → Squad de Operações
+                </span>
+              </div>
+              <span style="font-size:11px;color:var(--color-muted);">
+                Latência média: <span style="color:var(--color-text);">1,8s</span>
+              </span>
+            </div>
+
+            <div class="hero-panel-grid">
+              <div class="hero-flow">
+                <div class="hero-flow-row">
+                  <div class="hero-flow-node">
+                    Ticket recebido
+                    <br>
+                    Canal: WhatsApp / e-mail
+                  </div>
+                  <div class="hero-flow-arrow">⟶</div>
+                  <div class="hero-flow-node">
+                    IA classifica intenção
+                    <br>
+                    Prioriza e enriquece dados
+                  </div>
+                </div>
+                <div class="hero-flow-row">
+                  <div class="hero-flow-node">
+                    Atualiza CRM / ERP
+                    <br>
+                    Dispara rotina no seu sistema
+                  </div>
+                  <div class="hero-flow-arrow">⟶</div>
+                  <div class="hero-flow-node">
+                    Squad certo acionado
+                    <br>
+                    SLA configurado pela WeTechWork
+                  </div>
+                </div>
+                <div class="hero-flow-pill">
+                  <span class="material-symbols-outlined" style="font-size:16px;">trending_up</span>
+                  67% menos intervenção manual em 90 dias
+                </div>
+              </div>
+
+              <div class="hero-metrics">
+                <div>
+                  <div class="hero-metric-value">-40%</div>
+                  <div class="hero-metric-label">custo operacional em processos repetitivos</div>
+                </div>
+                <div>
+                  <div class="hero-metric-value">+3x</div>
+                  <div class="hero-metric-label">velocidade de resposta a clientes internos e externos</div>
+                </div>
+                <div>
+                  <div class="hero-metric-value">24/7</div>
+                  <div class="hero-metric-label">monitoramento e ajuste fino dos fluxos com IA</div>
+                </div>
+                <div>
+                  <div class="hero-metric-value">0</div>
+                  <div class="hero-metric-label">linha de código exigida do seu time para começar</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="descricao" class="section">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-eyebrow">Da ideia ao fluxo rodando em produção</p>
+          <h2 class="section-title">
+            Como a <span>WeTechWork</span> automatiza tarefas e processos com IA.
+          </h2>
+          <p class="section-subtitle">
+            Unimos design de serviço, engenharia de prompts e integrações para tirar a IA do laboratório
+            e colocar nos fluxos que realmente movem números na sua operação.
+          </p>
+        </header>
+
+        <div class="feature-grid" aria-label="Principais pilares da WeTechWork">
+          <article class="feature-card">
+            <div class="feature-icon">
+              <span class="material-symbols-outlined" style="font-size:18px;">architecture</span>
+            </div>
+            <h3 class="feature-title">Diagnóstico e desenho do fluxo</h3>
+            <p class="feature-body">
+              Mapeamos jornadas, pontos de atrito e sistemas envolvidos. A partir disso,
+              desenhamos fluxos inteligentes que combinam IA generativa, regras de negócio
+              e automações já existentes.
+            </p>
+            <div class="feature-footer">
+              <span class="material-symbols-outlined" style="font-size:14px;">north_east</span>
+              Workshop imersivo com seu time em até 7 dias.
+            </div>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">
+              <span class="material-symbols-outlined" style="font-size:18px;">hub</span>
+            </div>
+            <h3 class="feature-title">Orquestração e integrações</h3>
+            <p class="feature-body">
+              Conectamos chatbots, APIs de IA, CRMs, ERPs, planilhas e bancos de dados.
+              Você ganha uma camada de orquestração que assegura contexto, segurança e
+              rastreabilidade em cada automação.
+            </p>
+            <div class="feature-footer">
+              <span class="material-symbols-outlined" style="font-size:14px;">verified</span>
+              Logs completos e versionamento de fluxos.
+            </div>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">
+              <span class="material-symbols-outlined" style="font-size:18px;">monitor_heart</span>
+            </div>
+            <h3 class="feature-title">Monitoramento contínuo</h3>
+            <p class="feature-body">
+              Medimos desempenho, taxas de erro e qualidade das respostas da IA, fazendo
+              ajustes de prompts, limites e rotas de fallback humano sempre que necessário.
+            </p>
+            <div class="feature-footer">
+              <span class="material-symbols-outlined" style="font-size:14px;">schedule</span>
+              Relatórios e recomendações a cada sprint.
+            </div>
+          </article>
+        </div>
+
+        <div class="section-highlight">
+          <div class="section-highlight-main">
+            <strong>Comece com um piloto enxuto.</strong>
+            Em poucas semanas, você vê um fluxo real rodando em produção,
+            com metas claras de ganho de eficiência, qualidade ou tempo de resposta.
+          </div>
+          <div class="section-highlight-actions">
+            <a href="#contato" class="btn-primary">
+              <span class="material-symbols-outlined">calendar_today</span>
+              Agendar diagnóstico gratuito
+            </a>
+            <a href="[https://wa.me/5511985863538](https://wa.me/5511985863538)" target="_blank" rel="noopener" class="btn-secondary">
+              <span class="material-symbols-outlined">chat</span>
+              Falar com especialista no WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sentinela para exibir o footer apenas no final -->
+    <section class="page-end-sentinel" aria-hidden="true"></section>
+  </main>
+
+  <footer class="site-footer" id="contato">
+    <div class="container site-footer-inner">
+      <div class="footer-brand">
+        <div class="footer-brand-name">WeTechWork</div>
+        <div>Automatização de tarefas e processos com Inteligência Artificial.</div>
+      </div>
+
+      <div class="footer-links">
+        <a class="footer-link" href="mailto:WeTechWork@WeTechWork.com">
+          <span class="material-symbols-outlined">mail</span>
+          WeTechWork@WeTechWork.com
+        </a>
+        <a class="footer-link" href="tel:+5511985863538">
+          <span class="material-symbols-outlined">call</span>
+          +55 (11) 98586-3538
+        </a>
+        <a class="footer-link" href="[https://wa.me/5511985863538](https://wa.me/5511985863538)" target="_blank" rel="noopener">
+          <span class="material-symbols-outlined">chat</span>
+          WhatsApp
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS principal -->
+  <script src="js/main.js" defer></script>
+</body>
+</html>
